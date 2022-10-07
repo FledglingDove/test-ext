@@ -1,7 +1,7 @@
 document.getElementById('test').onclick = () => {
-    const win = window.open('http://localhost:3000');
+    const win = window.open('https://google.com');
     console.log(win);
     setInterval(() => {
-        win.postMessage('test', 'http://localhost:3000');
-    }, 5000);
+        win.postMessage('test', 'https://google.com');
+    }, 3000);
 };
